@@ -13,6 +13,8 @@
 		20CB37901FAD58ED00FE090C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20CB378E1FAD58ED00FE090C /* LaunchScreen.storyboard */; };
 		20CB37981FAD5A3400FE090C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 20CB37971FAD5A3400FE090C /* README.md */; };
 		20CB379B1FAD5D5500FE090C /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CB379A1FAD5D5500FE090C /* VideoPlayerViewController.swift */; };
+		20CB379D1FAD88B900FE090C /* VideoPlayerViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CB379C1FAD88B900FE090C /* VideoPlayerViewControllerExt.swift */; };
+		20CB379F1FAD8C4B00FE090C /* VideoClientImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CB379E1FAD8C4B00FE090C /* VideoClientImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		20CB37911FAD58ED00FE090C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20CB37971FAD5A3400FE090C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		20CB379A1FAD5D5500FE090C /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		20CB379C1FAD88B900FE090C /* VideoPlayerViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewControllerExt.swift; sourceTree = "<group>"; };
+		20CB379E1FAD8C4B00FE090C /* VideoClientImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoClientImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,8 +45,10 @@
 			isa = PBXGroup;
 			children = (
 				20CB37971FAD5A3400FE090C /* README.md */,
+				20CB379E1FAD8C4B00FE090C /* VideoClientImagePicker.swift */,
 				20CB37891FAD58ED00FE090C /* Main.storyboard */,
 				20CB379A1FAD5D5500FE090C /* VideoPlayerViewController.swift */,
+				20CB379C1FAD88B900FE090C /* VideoPlayerViewControllerExt.swift */,
 				20CB37841FAD58ED00FE090C /* MyAVMutableComposition */,
 				20CB37831FAD58ED00FE090C /* Products */,
 			);
@@ -148,7 +154,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20CB379D1FAD88B900FE090C /* VideoPlayerViewControllerExt.swift in Sources */,
 				20CB37861FAD58ED00FE090C /* AppDelegate.swift in Sources */,
+				20CB379F1FAD8C4B00FE090C /* VideoClientImagePicker.swift in Sources */,
 				20CB379B1FAD5D5500FE090C /* VideoPlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
