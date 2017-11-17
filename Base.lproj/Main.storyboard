@@ -17,35 +17,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iRh-tv-Zor">
-                                <rect key="frame" x="155" y="255" width="68" height="30"/>
-                                <state key="normal" title="Get Video"/>
-                                <connections>
-                                    <action selector="getVideo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1cl-GR-8uL"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wOP-fA-DK3">
-                                <rect key="frame" x="153" y="339" width="72" height="30"/>
+                                <rect key="frame" x="153" y="318" width="72" height="30"/>
                                 <state key="normal" title="Play Video"/>
                                 <connections>
                                     <action selector="playVideo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1C3-7e-QMy"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bcI-lm-nJh">
-                                <rect key="frame" x="165" y="437" width="44" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bcI-lm-nJh">
+                                <rect key="frame" x="167" y="374" width="44" height="30"/>
                                 <state key="normal" title="merge"/>
                                 <connections>
                                     <action selector="mergeVideoAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W1n-Qh-3ym"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iRh-tv-Zor">
+                                <rect key="frame" x="153" y="273" width="68" height="30"/>
+                                <state key="normal" title="Get Video"/>
+                                <connections>
+                                    <action selector="getVideo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1cl-GR-8uL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="iRh-tv-Zor" firstAttribute="centerX" secondItem="wOP-fA-DK3" secondAttribute="centerX" id="A4u-vY-Ss8"/>
-                            <constraint firstItem="wOP-fA-DK3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="153" id="ZZV-B2-Dw6"/>
-                            <constraint firstItem="wOP-fA-DK3" firstAttribute="top" secondItem="iRh-tv-Zor" secondAttribute="bottom" constant="54" id="a7c-QY-gM9"/>
-                            <constraint firstItem="iRh-tv-Zor" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="235" id="dJB-tg-pDI"/>
+                            <constraint firstItem="iRh-tv-Zor" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="253" id="EsB-IH-wje"/>
+                            <constraint firstItem="iRh-tv-Zor" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GUx-NZ-dTb"/>
+                            <constraint firstItem="iRh-tv-Zor" firstAttribute="leading" secondItem="wOP-fA-DK3" secondAttribute="leading" id="JLD-EP-2Fq"/>
+                            <constraint firstItem="bcI-lm-nJh" firstAttribute="top" secondItem="wOP-fA-DK3" secondAttribute="bottom" constant="26" id="bGk-ac-wUg"/>
+                            <constraint firstItem="wOP-fA-DK3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="hVM-y1-MoG"/>
+                            <constraint firstItem="wOP-fA-DK3" firstAttribute="centerX" secondItem="bcI-lm-nJh" secondAttribute="centerX" id="znl-tZ-fqq"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

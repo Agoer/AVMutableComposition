@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20C70D5D1FBE86380029D634 /* VideoPlayerVCEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C70D5C1FBE86380029D634 /* VideoPlayerVCEx.swift */; };
+		20C70D5F1FBE87B30029D634 /* VideoMerge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C70D5E1FBE87B30029D634 /* VideoMerge.swift */; };
 		20CB37861FAD58ED00FE090C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CB37851FAD58ED00FE090C /* AppDelegate.swift */; };
 		20CB378B1FAD58ED00FE090C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20CB37891FAD58ED00FE090C /* Main.storyboard */; };
 		20CB378D1FAD58ED00FE090C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20CB378C1FAD58ED00FE090C /* Assets.xcassets */; };
 		20CB37901FAD58ED00FE090C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20CB378E1FAD58ED00FE090C /* LaunchScreen.storyboard */; };
 		20CB37981FAD5A3400FE090C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 20CB37971FAD5A3400FE090C /* README.md */; };
 		20CB379B1FAD5D5500FE090C /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CB379A1FAD5D5500FE090C /* VideoPlayerViewController.swift */; };
-		20CB379D1FAD88B900FE090C /* VideoPlayerViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CB379C1FAD88B900FE090C /* VideoPlayerViewControllerExt.swift */; };
-		20CB379F1FAD8C4B00FE090C /* VideoClientImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CB379E1FAD8C4B00FE090C /* VideoClientImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20C70D5C1FBE86380029D634 /* VideoPlayerVCEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerVCEx.swift; sourceTree = "<group>"; };
+		20C70D5E1FBE87B30029D634 /* VideoMerge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoMerge.swift; sourceTree = "<group>"; };
 		20CB37821FAD58ED00FE090C /* MyAVMutableComposition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAVMutableComposition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20CB37851FAD58ED00FE090C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20CB378A1FAD58ED00FE090C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -26,8 +28,6 @@
 		20CB37911FAD58ED00FE090C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20CB37971FAD5A3400FE090C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		20CB379A1FAD5D5500FE090C /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
-		20CB379C1FAD88B900FE090C /* VideoPlayerViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewControllerExt.swift; sourceTree = "<group>"; };
-		20CB379E1FAD8C4B00FE090C /* VideoClientImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoClientImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,10 +45,10 @@
 			isa = PBXGroup;
 			children = (
 				20CB37971FAD5A3400FE090C /* README.md */,
-				20CB379E1FAD8C4B00FE090C /* VideoClientImagePicker.swift */,
 				20CB37891FAD58ED00FE090C /* Main.storyboard */,
 				20CB379A1FAD5D5500FE090C /* VideoPlayerViewController.swift */,
-				20CB379C1FAD88B900FE090C /* VideoPlayerViewControllerExt.swift */,
+				20C70D5E1FBE87B30029D634 /* VideoMerge.swift */,
+				20C70D5C1FBE86380029D634 /* VideoPlayerVCEx.swift */,
 				20CB37841FAD58ED00FE090C /* MyAVMutableComposition */,
 				20CB37831FAD58ED00FE090C /* Products */,
 			);
@@ -154,10 +154,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20CB379D1FAD88B900FE090C /* VideoPlayerViewControllerExt.swift in Sources */,
 				20CB37861FAD58ED00FE090C /* AppDelegate.swift in Sources */,
-				20CB379F1FAD8C4B00FE090C /* VideoClientImagePicker.swift in Sources */,
 				20CB379B1FAD5D5500FE090C /* VideoPlayerViewController.swift in Sources */,
+				20C70D5F1FBE87B30029D634 /* VideoMerge.swift in Sources */,
+				20C70D5D1FBE86380029D634 /* VideoPlayerVCEx.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BKH47V89TW;
 				INFOPLIST_FILE = "$(SRCROOT)/MyAVMutableComposition/supporting files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stepwisedesigns.MyAVMutableComposition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -312,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BKH47V89TW;
 				INFOPLIST_FILE = "$(SRCROOT)/MyAVMutableComposition/supporting files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stepwisedesigns.MyAVMutableComposition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
