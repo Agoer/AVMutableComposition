@@ -102,14 +102,6 @@ class VideoPlayerViewController: UIViewController {
     }
   
     
-    
-   
-    
-        
-     
-    
-   
-    
 }
 
  

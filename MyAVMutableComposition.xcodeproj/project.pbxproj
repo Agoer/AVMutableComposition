@@ -15,6 +15,7 @@
 		20CB37901FAD58ED00FE090C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20CB378E1FAD58ED00FE090C /* LaunchScreen.storyboard */; };
 		20CB37981FAD5A3400FE090C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 20CB37971FAD5A3400FE090C /* README.md */; };
 		20CB379B1FAD5D5500FE090C /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CB379A1FAD5D5500FE090C /* VideoPlayerViewController.swift */; };
+		20F2C0261FBE9AD60000F3A8 /* Playvideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F2C0251FBE9AD60000F3A8 /* Playvideo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		20CB37911FAD58ED00FE090C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20CB37971FAD5A3400FE090C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		20CB379A1FAD5D5500FE090C /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		20F2C0251FBE9AD60000F3A8 /* Playvideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playvideo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 				20CB37971FAD5A3400FE090C /* README.md */,
 				20CB37891FAD58ED00FE090C /* Main.storyboard */,
 				20CB379A1FAD5D5500FE090C /* VideoPlayerViewController.swift */,
+				20F2C0251FBE9AD60000F3A8 /* Playvideo.swift */,
 				20C70D5E1FBE87B30029D634 /* VideoMerge.swift */,
 				20C70D5C1FBE86380029D634 /* VideoPlayerVCEx.swift */,
 				20CB37841FAD58ED00FE090C /* MyAVMutableComposition */,
@@ -155,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20CB37861FAD58ED00FE090C /* AppDelegate.swift in Sources */,
+				20F2C0261FBE9AD60000F3A8 /* Playvideo.swift in Sources */,
 				20CB379B1FAD5D5500FE090C /* VideoPlayerViewController.swift in Sources */,
 				20C70D5F1FBE87B30029D634 /* VideoMerge.swift in Sources */,
 				20C70D5D1FBE86380029D634 /* VideoPlayerVCEx.swift in Sources */,
